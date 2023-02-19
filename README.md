@@ -15,7 +15,7 @@ The plots of the Datasets are used to visualize the distribution of specific fea
 
 **Code-Description:**
 
-The code trains an artificial neural network (ANN) model on four different datasets: Bank-Note, Iris, Wisconsin Breast Cancer, and MNIST. The ANN model is defined with one hidden layer, where the output layer has a softmax activation function, and the loss function used during training is sparse categorical cross-entropy. The model is trained multiple times with different activation functions (sigmoid, tanh, relu, and softmax) and random values for k0 and k1. The function train_model() takes as input the name of the dataset to train on, the number of times the model is trained, the number of epochs to run the training, and a flag to indicate whether or not to plot the loss vs. epochs.
+The code trains an artificial neural network (ANN) model on four different datasets: Bank-Note, Iris, Wisconsin Breast Cancer, and MNIST. The ANN model is defined with one hidden layer, where the output layer has a softmax activation function, and the loss function used during training is sparse categorical cross-entropy. The model is trained multiple times with different activation functions (sigmoid, tanh, relu, and softmax) and random values for k0 and k1. The function train_model() takes the name of the dataset to train on, the number of times the model is trained, the number of epochs to run the training as inputs, and a flag to indicate whether or not to plot the loss vs. epochs.
 
 
 
