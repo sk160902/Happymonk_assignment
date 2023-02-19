@@ -33,8 +33,28 @@ Overall, the code performs a simple hyperparameter search to find the best activ
 
 **1.Implementing the Algorithm over the MNIST-dataset:**
 
+Activation function: softmax, Average accuracy: 92.30%, Average F1 score: 92.29%
+
+Best activation function: relu, Best accuracy: 0.9239400088787079, Best F1 score: 0.923767393993997
+Final parameters: k0 = -0.5111357185177545, k1 = 1.0574371660880622
+
 **2.Implementing the Algorithm over the Wisconsin Breast Cancer-dataset:**
+
+Activation function: softmax, Average accuracy: 92.72%, Average F1 score: 92.59%
+
+Best activation function: softmax, Best accuracy: 0.927192997932434, Best F1 score: 0.9258539741297588
+Final parameters: k0 = -0.43718182282917384, k1 = 1.0262221317646731
 
 **3.Implementing the Algorithm over the Iris-dataset:**
 
+Activation function: softmax, Average accuracy: 89.19%, Average F1 score: 88.99%
+
+Best activation function: sigmoid, Best accuracy: 0.9110743826085871, Best F1 score: 0.9098789625431289
+Final parameters: k0 = -1.3754076471683514, k1 = 1.088711832133742
+
 **4.Implementing the Algorithm over the Bank-Note-dataset:**
+
+Activation function: softmax, Average accuracy: 90.53%, Average F1 score: 90.31%
+
+Best activation function: softmax, Best accuracy: 0.9052562009204518, Best F1 score: 0.9030947005083185
+Final parameters: k0 = 0.5870601746336459, k1 = 1.018799858970626
