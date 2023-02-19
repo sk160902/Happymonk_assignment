@@ -31,7 +31,7 @@ Overall, the code performs a simple hyperparameter search to find the best activ
 
 **OUTPUTS:**
 
-**1.Implementing the Algorithm over the MNSIT-dataset:**
+**1.Implementing the Algorithm over the MNIST-dataset:**
 
 **2.Implementing the Algorithm over the Wisconsin Breast Cancer-dataset:**
 
