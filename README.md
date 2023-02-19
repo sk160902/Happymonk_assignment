@@ -11,7 +11,7 @@ The Given Datasets on which the experiment is to be performed are as follows:
 **4.Banknote dataset:** The Banknote dataset is a collection of images of banknotes that have been authenticated using various methods. The dataset contains 1,372 instances, each with five features, including the variance, skewness, kurtosis, and entropy of the image. The dataset is commonly used to develop and test machine learning algorithms for banknote authentication and fraud detection.
 The Python script defines two functions, create_model() and train_model(), which can be used to create and train neural network models for various datasets, and then evaluate the performance of the models based on their loss and accuracy. The script uses the Keras API provided by TensorFlow to create and train the models.
 
-The plots of the to visualize the distribution of specific features in these datasets for each species.
+The plots of the Datasets are used to visualize the distribution of specific features in these datasets for each species.
 
 **Code-Description:**
 
