@@ -2,7 +2,7 @@
 
 The Given Datasets on which the experiment is to be performed are as follows:
 
-**<1.MNIST dataset:>** The MNIST dataset is a collection of handwritten digits that is commonly used in machine learning research. The dataset consists of 70,000 images of handwritten digits, each 28x28 pixels in size. The images are split into a training set of 60,000 images and a test set of 10,000 images. The MNIST dataset is often used as a benchmark for image classification algorithms, and has been used to train a variety of machine learning models, including deep neural networks.
+**1.MNIST dataset:** The MNIST dataset is a collection of handwritten digits that is commonly used in machine learning research. The dataset consists of 70,000 images of handwritten digits, each 28x28 pixels in size. The images are split into a training set of 60,000 images and a test set of 10,000 images. The MNIST dataset is often used as a benchmark for image classification algorithms, and has been used to train a variety of machine learning models, including deep neural networks.
 
 **2.Wisconsin Breast Cancer dataset:** The Wisconsin Breast Cancer dataset is a collection of diagnostic measurements on breast cancer tumors. The dataset contains 569 instances, each with 30 features, including the radius, texture, perimeter, area, smoothness, and other characteristics of the tumor. The dataset is commonly used to develop and test machine learning algorithms for breast cancer diagnosis and prediction.
 
@@ -32,6 +32,9 @@ Overall, the code performs a simple hyperparameter search to find the best activ
 **OUTPUTS:**
 
 **1.Implementing the Algorithm over the MNSIT-dataset:**
+
 **2.Implementing the Algorithm over the Wisconsin Breast Cancer-dataset:**
+
 **3.Implementing the Algorithm over the Iris-dataset:**
+
 **4.Implementing the Algorithm over the Bank-Note-dataset:**
