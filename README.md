@@ -1,18 +1,18 @@
 # Happymonk_assignment
 
 The Given Datasets on which the experiment is to be performed are as follows:
-#1.MNIST dataset: The MNIST dataset is a collection of handwritten digits that is commonly used in machine learning research. The dataset consists of 70,000 images of handwritten digits, each 28x28 pixels in size. The images are split into a training set of 60,000 images and a test set of 10,000 images. The MNIST dataset is often used as a benchmark for image classification algorithms, and has been used to train a variety of machine learning models, including deep neural networks.
+**<u>1.MNIST dataset:** The MNIST dataset is a collection of handwritten digits that is commonly used in machine learning research. The dataset consists of 70,000 images of handwritten digits, each 28x28 pixels in size. The images are split into a training set of 60,000 images and a test set of 10,000 images. The MNIST dataset is often used as a benchmark for image classification algorithms, and has been used to train a variety of machine learning models, including deep neural networks.
 
-#2.Wisconsin Breast Cancer dataset: The Wisconsin Breast Cancer dataset is a collection of diagnostic measurements on breast cancer tumors. The dataset contains 569 instances, each with 30 features, including the radius, texture, perimeter, area, smoothness, and other characteristics of the tumor. The dataset is commonly used to develop and test machine learning algorithms for breast cancer diagnosis and prediction.
+**2.Wisconsin Breast Cancer dataset:** The Wisconsin Breast Cancer dataset is a collection of diagnostic measurements on breast cancer tumors. The dataset contains 569 instances, each with 30 features, including the radius, texture, perimeter, area, smoothness, and other characteristics of the tumor. The dataset is commonly used to develop and test machine learning algorithms for breast cancer diagnosis and prediction.
 
-#3.Iris dataset: The Iris dataset is a collection of measurements on three species of iris flowers. The dataset contains 150 instances, each with four features, including the sepal length, sepal width, petal length, and petal width of the flower. The dataset is often used as a benchmark for clustering and classification algorithms, and has been used to train a variety of machine learning models.
+**3.Iris dataset:** The Iris dataset is a collection of measurements on three species of iris flowers. The dataset contains 150 instances, each with four features, including the sepal length, sepal width, petal length, and petal width of the flower. The dataset is often used as a benchmark for clustering and classification algorithms, and has been used to train a variety of machine learning models.
 
-#4.Banknote dataset: The Banknote dataset is a collection of images of banknotes that have been authenticated using various methods. The dataset contains 1,372 instances, each with five features, including the variance, skewness, kurtosis, and entropy of the image. The dataset is commonly used to develop and test machine learning algorithms for banknote authentication and fraud detection.
+**4.Banknote dataset:** The Banknote dataset is a collection of images of banknotes that have been authenticated using various methods. The dataset contains 1,372 instances, each with five features, including the variance, skewness, kurtosis, and entropy of the image. The dataset is commonly used to develop and test machine learning algorithms for banknote authentication and fraud detection.
 The Python script defines two functions, create_model() and train_model(), which can be used to create and train neural network models for various datasets, and then evaluate the performance of the models based on their loss and accuracy. The script uses the Keras API provided by TensorFlow to create and train the models.
 
 The plots of the to visualize the distribution of specific features in these datasets for each species.
 
-#Code-Description:
+**Code-Description:**
 
 The code trains an artificial neural network (ANN) model on four different datasets: Bank-Note, Iris, Wisconsin Breast Cancer, and MNIST. The ANN model is defined with one hidden layer, where the output layer has a softmax activation function, and the loss function used during training is sparse categorical cross-entropy. The model is trained multiple times with different activation functions (sigmoid, tanh, relu, and softmax) and random values for k0 and k1. The function train_model() takes as input the name of the dataset to train on, the number of times the model is trained, the number of epochs to run the training, and a flag to indicate whether or not to plot the loss vs. epochs.
 
@@ -28,9 +28,9 @@ The script also imports several Python modules, including TensorFlow, NumPy, Mat
 Overall, the code performs a simple hyperparameter search to find the best activation function for the ANN model.
 
 
-#OUTPUTS:
+**OUTPUTS:**
 
-#1.Implementing the Algorithm over the MNSIT-dataset:
-#2.Implementing the Algorithm over the Wisconsin Breast Cancer-dataset:
-#3.Implementing the Algorithm over the Iris-dataset:
-#4.Implementing the Algorithm over the Bank-Note-dataset:
+**1.Implementing the Algorithm over the MNSIT-dataset:**
+**2.Implementing the Algorithm over the Wisconsin Breast Cancer-dataset:**
+**3.Implementing the Algorithm over the Iris-dataset:**
+**4.Implementing the Algorithm over the Bank-Note-dataset:**
